@@ -1,5 +1,4 @@
-    
-const products = ['preto-PP', 'preto-M', 'preto-G', 'preto-GG', 'preto-GG', 'branco-PP', 'branco-G', 'vermelho-M', 'azul-XG', 'azul-XG', 'azul-XG', 'azul-P'];
+const products = ['black-PP', 'black-M', 'black-G', 'black-GG', 'black-GG', 'white-PP', 'white-G', 'red-M', 'blue-XG', 'blue-XG', 'blue-XG', 'blue-P'];
 
 const getSize = (value, type) => {
     return value.split('-')[type];
